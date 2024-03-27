@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* body {
+  line-height: 1.5;
+  /* -webkit-font-smoothing: antialiased; */
+/* background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: "Inter";
+  overflow-x: hidden; */
+/* }  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.swiper-slide {
+  width: auto !important;
+}
